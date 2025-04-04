@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "SDL2-CS/2.0.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "SDL2-CS/2.0.0": {
+      "sha512": "W7T4y+lMs7Wm/94dGggRxJYqxX5N6uuxuxw5ob/H34fnaoUwgoG0s+P7xzqsGXUc1cbCAjnShs21FdeFUnPlHA==",
+      "type": "package",
+      "path": "sdl2-cs/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "content/net20/SDL2-CS/LPUtf8StrMarshaler.cs",
+        "content/net20/SDL2-CS/SDL2.cs",
+        "content/net20/SDL2-CS/SDL2_image.cs",
+        "content/net20/SDL2-CS/SDL2_mixer.cs",
+        "content/net20/SDL2-CS/SDL2_ttf.cs",
+        "sdl2-cs.2.0.0.nupkg.sha512",
+        "sdl2-cs.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "SDL2-CS >= 2.0.0",
+      "SDL2-CS.TTF >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/maxime/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/maxime/MonProjetCSharp/MonProjetCSharp.csproj",
+      "projectName": "MonProjetCSharp",
+      "projectPath": "/home/maxime/MonProjetCSharp/MonProjetCSharp.csproj",
+      "packagesPath": "/home/maxime/.nuget/packages/",
+      "outputPath": "/home/maxime/MonProjetCSharp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/maxime/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "SDL2-CS": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "SDL2-CS.TTF": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package SDL2-CS.TTF. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "SDL2-CS.TTF",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

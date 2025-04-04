@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Aeuk8hTlrG2hK3kmcr4AX8ie+Px5LLTEYrsM8wdZN9IIBBRV7M4eV305fDXT8VbIwJI0jZoguzsaEI99VczuUA==",
+  "success": false,
+  "projectFilePath": "/home/maxime/MonProjetCSharp/MonProjetCSharp.csproj",
+  "expectedPackageFiles": [
+    "/home/maxime/.nuget/packages/sdl2-cs/2.0.0/sdl2-cs.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package SDL2-CS.TTF. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "SDL2-CS.TTF",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
